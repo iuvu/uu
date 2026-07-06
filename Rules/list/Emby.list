@@ -1,0 +1,219 @@
+# > 1111 (垃圾影音,Loser)
+# > YkkCloud & 1111 (垃圾影音,Loser)
+
+DOMAIN-SUFFIX,emby.ml
+DOMAIN-SUFFIX,emby.moe
+DOMAIN-SUFFIX,loseremby.org
+DOMAIN-SUFFIX,xmsl.org
+DOMAIN-SUFFIX,xxlb.net
+
+# > Academy City Airport & MisakaF
+
+DOMAIN-SUFFIX,aca.best
+
+# > AiFun - AiKan & Lily
+
+DOMAIN-SUFFIX,aikan.la
+DOMAIN-SUFFIX,aikan.cloud
+
+# > EdNovas & PornEmby
+
+DOMAIN-SUFFIX,ednovas.org
+
+# > EmbyPlus (纸片人)
+
+DOMAIN-SUFFIX,9521732.xyz
+DOMAIN-SUFFIX,chirsemby.top
+DOMAIN-SUFFIX,embyplus.org
+
+# > ichinosekotomifan (一之濑琴美)
+
+DOMAIN-SUFFIX,191920.xyz
+DOMAIN-SUFFIX,ichinosekotomi.com
+
+# > Lily
+
+DOMAIN-SUFFIX,fastboostcdn.com
+DOMAIN-SUFFIX,lilyemby.app
+DOMAIN-SUFFIX,lilyemby.cc
+DOMAIN-SUFFIX,lilyemby.com
+DOMAIN-SUFFIX,lilyemby.my
+DOMAIN-SUFFIX,lilyya.xyz
+DOMAIN-SUFFIX,lilyyaya.top
+
+# > Long Emby
+# > GoMami & Long Emby
+# > Short & Long Emby
+
+DOMAIN-SUFFIX,longemby.com
+
+# > Magpie (喜鹊)
+
+DOMAIN-SUFFIX,023168.xyz
+DOMAIN-SUFFIX,223789.xyz
+DOMAIN-SUFFIX,magpie.cyou
+DOMAIN-SUFFIX,magpiecdn.tech
+
+# > MaTrix
+DOMAIN-SUFFIX,amatrixap.com
+
+# > MisakaF - MisakaF Vip
+
+DOMAIN-SUFFIX,misakaf.org
+
+# > Mooncake (月饼)
+
+DOMAIN-SUFFIX,637567.xyz
+DOMAIN-SUFFIX,apple-cdn.net
+DOMAIN-SUFFIX,emby.my
+DOMAIN-SUFFIX,mobai.sbs
+
+# > NiceDuck & 1111 (垃圾影音,Loser) , Jms (卷毛鼠) ,  Dpx (飞跃地平线)
+
+DOMAIN-SUFFIX,5203166.xyz
+DOMAIN-SUFFIX,niceduck.lol
+DOMAIN-SUFFIX,niceduck.me
+
+# > OuO Network & Jms (卷毛鼠) 
+
+DOMAIN-SUFFIX,ouonet.org
+
+# > Polo
+
+DOMAIN-SUFFIX,poloemby.xyz
+DOMAIN-SUFFIX,pololine.ml
+
+# > Porn
+
+DOMAIN-SUFFIX,pornemby.com
+
+# > SaturDay.Lite
+
+DOMAIN-SUFFIX,saturday.video
+
+# > SIESTA
+
+DOMAIN-SUFFIX,abcj.uk
+
+# > SIESTA PRO
+
+DOMAIN-SUFFIX,siepro.uk
+
+# > SNTP (守候网络) - 守候影院
+
+DOMAIN-SUFFIX,cn2gias.uk
+
+# > Stupid melon (不吃呆瓜)
+
+DOMAIN-SUFFIX,1024.name
+DOMAIN-SUFFIX,1024.one
+DOMAIN-SUFFIX,j8.work
+
+# > Temby
+
+DOMAIN-SUFFIX,285286.xyz
+
+# > Terminus (终点站)
+
+DOMAIN-SUFFIX,emby.wtf
+DOMAIN-SUFFIX,term.wtf
+
+# > TreeDiagram (树状图)
+
+DOMAIN-SUFFIX,123456.al
+
+# > UHD & RFCHOST
+
+DOMAIN-SUFFIX,uhdnow.com
+
+# > Violet (紫罗兰)
+
+DOMAIN-SUFFIX,fufuemby.top
+DOMAIN-SUFFIX,violet.run
+
+# > XMAX
+
+DOMAIN-SUFFIX,xmax.vip
+
+# > Yomo (Yomo服不服)
+
+DOMAIN-SUFFIX,yomo.lol
+
+# > YXIO
+
+DOMAIN-SUFFIX,yixia.io
+
+# > Zox/Ac
+
+DOMAIN-SUFFIX,acemby.org
+DOMAIN-SUFFIX,zox.show
+
+# > ZoxFree
+
+DOMAIN-SUFFIX,3767483.xyz
+
+# > 阿甘
+
+DOMAIN-SUFFIX,aganemby.top
+
+# > 二刺螈 (二次元)
+
+DOMAIN-SUFFIX,bgp.yt
+DOMAIN-SUFFIX,nijigem.by
+
+# > 飞跃彩虹
+
+DOMAIN-SUFFIX,581658.best
+DOMAIN-SUFFIX,7777777.buzz
+
+# > 非越
+
+DOMAIN-SUFFIX,emby.pro
+DOMAIN-SUFFIX,sfcj.org
+
+# > 憨豆
+
+DOMAIN-SUFFIX,handoutv.top
+
+# > 墨云阁
+
+DOMAIN-SUFFIX,mobaiemby.site
+
+# > 叶子
+
+DOMAIN-SUFFIX,200036.xyz
+DOMAIN-SUFFIX,lyezi.cc
+DOMAIN-SUFFIX,lyezi.xyz
+DOMAIN-SUFFIX,yezi.my
+
+# > 云海
+
+DOMAIN-SUFFIX,oceancloud.asia
+
+# ------
+
+# > 兜底域名
+DOMAIN-KEYWORD,emby
+
+# ------
+
+# > Lily
+
+IP-CIDR,50.114.155.150/32
+
+# > Mooncake (月饼)
+
+IP-CIDR,111.229.46.243/32
+IP-CIDR,100.42.230.169/32
+
+# > Violet (紫罗兰)
+
+IP-CIDR,46.3.109.178/32
+
+# > Yomo (Yomo服不服)
+
+IP-CIDR,104.161.22.116/32
+
+# > 飞跃彩虹
+
+IP-CIDR,193.122.114.13/32

@@ -1,0 +1,204 @@
+dns:
+  enable: true
+  respect-rules: true
+  ipv6: true
+  enhanced-mode: redir-host
+  direct-nameserver-follow-policy: true
+  default-nameserver:
+  - 
+  nameserver:
+  - 
+  proxy-server-nameserver:
+  - 
+  nameserver-policy:
+    geosite:cn,private:
+    - 
+    geosite:geolocation-!cn:
+    - 
+  direct-nameserver:
+  - 
+
+hosts:
+# App Store 下载请求解析 金山CDN
+'iosapps.itunes.apple.com':  iosapps.itunes.apple.com.download.ks-cdn.com
+
+proxies:
+- type: ss
+
+proxy-groups:
+- name: Main Node
+  include-all: true
+  type: select
+  proxies:
+  - DIRECT
+- name: Apple Agent Services
+  include-all: true
+  type: select
+  proxies:
+  - Main Node
+- name: Google Services
+  include-all: true
+  type: select
+  proxies:
+  - Main Node
+- name: Bilibili
+  include-all: true
+  type: select
+  proxies:
+  - DIRECT
+  - Main Node
+- name: TikTok
+  include-all: true
+  type: select
+  proxies:
+  - Main Node
+- name: EmbyProxy
+  include-all: true
+  type: select
+  proxies:
+  - Main Node
+  - DIRECT
+- name: Emby
+  include-all: true
+  type: select
+  proxies:
+  - Main Node
+  - DIRECT
+- name: Github
+  include-all: true
+  type: select
+  proxies:
+  - Main Node
+- name: OpenAI
+  include-all: true
+  type: select
+  proxies:
+  - Main Node
+- name: Steam
+  include-all: true
+  type: select
+  proxies:
+  - Main Node
+  - DIRECT
+- name: Discord
+  include-all: true
+  type: select
+  proxies:
+  - Main Node
+- name: Telegram
+  include-all: true
+  type: select
+  proxies:
+  - Main Node
+rule-providers:
+  AppleCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/AppleCN.list
+    interval: 86400
+  AppleProxy:
+    type: http
+    behavior: classical
+    format: text
+    url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/AppleProxy.list
+    interval: 86400
+  Google:
+    type: http
+    behavior: classical
+    format: text
+    url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Google.list
+    interval: 86400
+  Bilibili:
+    type: http
+    behavior: classical
+    format: text
+    url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Bilibili.list
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    format: text
+    url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Microsoft.list
+    interval: 86400
+  TikTok:
+    type: http
+    behavior: classical
+    format: text
+    url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/TikTok.list
+    interval: 86400
+  Emby:
+    type: http
+    behavior: classical
+    format: text
+    url: https://github.com/iuvu/uu/raw/u/Rules/list/Emby.list
+    interval: 86400
+  Github:
+    type: http
+    behavior: classical
+    format: text
+    url: https://github.com/LM-Firefly/Rules/raw/master/PROXY/Github.list
+    interval: 86400
+  OpenAI:
+    type: http
+    behavior: classical
+    format: text
+    url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/AI.list
+    interval: 86400
+  SteamCN:
+    type: http
+    behavior: classical
+    url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/SteamCN/SteamCN_No_Resolve.yaml
+    interval: 86400
+  Steam:
+    type: http
+    behavior: classical
+    url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam_No_Resolve.yaml
+    interval: 86400
+  Discord:
+    type: http
+    behavior: classical
+    format: text
+    url: https://github.com/LM-Firefly/Rules/raw/master/PROXY/Discord.list
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: https://github.com/LM-Firefly/Rules/raw/master/PROXY/Telegram.list
+    interval: 86400
+  direct:
+    type: http
+    behavior: domain
+    url: https://github.com/Loyalsoldier/clash-rules/raw/release/direct.txt
+    interval: 86400
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: https://github.com/Loyalsoldier/clash-rules/raw/release/cncidr.txt
+    interval: 86400
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: https://github.com/Loyalsoldier/clash-rules/raw/release/lancidr.txt
+    interval: 86400
+rules:
+- RULE-SET,AppleCN,DIRECT,no-resolve,no-resolve
+- RULE-SET,AppleProxy,Apple Agent Services,no-resolve
+- RULE-SET,Google,Google Services,no-resolve
+- RULE-SET,Bilibili,Bilibili,no-resolve
+- RULE-SET,TikTok,TikTok,no-resolve
+- RULE-SET,Microsoft,DIRECT,no-resolve
+- DOMAIN,domain name,EmbyProxy,no-resolve
+- RULE-SET,Emby,Emby,no-resolve
+- RULE-SET,Github,Github,no-resolve
+- RULE-SET,OpenAI,OpenAI,no-resolve
+- RULE-SET,SteamCN,DIRECT,no-resolve
+- RULE-SET,Steam,Steam,no-resolve
+- RULE-SET,Discord,Discord,no-resolve
+- RULE-SET,Telegram,Telegram,no-resolve
+- RULE-SET,direct,DIRECT,no-resolve
+- GEOSITE,geolocation-!cn,Main Node
+- RULE-SET,cncidr,DIRECT,no-resolve
+- RULE-SET,lancidr,DIRECT,no-resolve
+- MATCH,Main Node
