@@ -10,8 +10,9 @@ payload:
  - DOMAIN-SUFFIX,filegear-sg.me
 
 # > Juli
- - DOMAIN-SUFFIX,cdn3.indevs.in
  - DOMAIN-SUFFIX,10.fast.hidns.vip
+ - DOMAIN-SUFFIX,cdn3.indevs.in
+ - DOMAIN-SUFFIX,qd.je
 
  # > YanG
  - DOMAIN-SUFFIX,1989.click
