@@ -64,6 +64,12 @@ proxy-groups:
   proxies:
   - Main Node
   - DIRECT
+- name: Live broadcast
+  include-all: true
+  type: select
+  proxies:
+  - Main Node
+  - DIRECT
 - name: Github
   include-all: true
   type: select
@@ -133,6 +139,12 @@ rule-providers:
     format: text
     url: https://github.com/iuvu/uu/raw/u/Rules/list/Emby.list
     interval: 86400
+  Live broadcast:
+    type: http
+    behavior: classical
+    format: text
+    url: https://github.com/iuvu/uu/raw/u/Rules/list/Live_broadcast.list
+    interval: 86400
   Github:
     type: http
     behavior: classical
@@ -191,6 +203,7 @@ rules:
 - RULE-SET,Microsoft,DIRECT,no-resolve
 - DOMAIN,domain name,EmbyProxy,no-resolve
 - RULE-SET,Emby,Emby,no-resolve
+- RULE-SET,Live broadcast,Live broadcast,no-resolve
 - RULE-SET,Github,Github,no-resolve
 - RULE-SET,OpenAI,OpenAI,no-resolve
 - RULE-SET,SteamCN,DIRECT,no-resolve

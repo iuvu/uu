@@ -1,8 +1,4 @@
 payload:
-# > 冰茶
- - DOMAIN-SUFFIX,188766.xyz
- - DOMAIN-SUFFIX,qzz.io
-
 # > AKTV
  - DOMAIN-SUFFIX,aktv.top
  - DOMAIN-SUFFIX,aktv.space
@@ -13,4 +9,10 @@ payload:
  - DOMAIN-SUFFIX,4666888.xyz
  - DOMAIN-SUFFIX,filegear-sg.me
 
+# > Juli
+ - DOMAIN-SUFFIX,cdn3.indevs.in
+ - DOMAIN-SUFFIX,10.fast.hidns.vip
 
+# > 冰茶
+ - DOMAIN-SUFFIX,188766.xyz
+ - DOMAIN-SUFFIX,qzz.io
