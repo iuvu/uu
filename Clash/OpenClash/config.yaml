@@ -195,7 +195,7 @@ rule-providers:
     url: https://github.com/Loyalsoldier/clash-rules/raw/release/lancidr.txt
     interval: 86400
 rules:
-- RULE-SET,AppleCN,DIRECT,no-resolve,no-resolve
+- RULE-SET,AppleCN,DIRECT,no-resolve
 - RULE-SET,AppleProxy,Apple Agent Services,no-resolve
 - RULE-SET,Google,Google Services,no-resolve
 - RULE-SET,Bilibili,Bilibili,no-resolve
