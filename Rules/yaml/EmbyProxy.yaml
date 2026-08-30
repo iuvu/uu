@@ -1,4 +1,28 @@
 payload:
+# > LilyProxy
+ - DOMAIN,speedtest.lilyemby.cc
+ - DOMAIN,x1.lilyemby.cc
+ - DOMAIN,x2.lilyemby.cc
+ - DOMAIN,x3.lilyemby.cc
+ - DOMAIN,x4.lilyemby.cc
+ - DOMAIN,x5.lilyemby.cc
+ - DOMAIN,x6.lilyemby.cc
+ - DOMAIN,x7.lilyemby.cc
+ - DOMAIN,x8.lilyemby.cc
+ - DOMAIN,x9.ilyemby.cc
+ - DOMAIN,x10.lilyemby.cc
+ - DOMAIN,x11.lilyemby.cc
+ - DOMAIN,x12.lilyemby.cc
+ - DOMAIN,x13.lilyemby.cc
+ - DOMAIN,x14.lilyemby.cc
+ - DOMAIN,x15.lilyemby.cc
+ - DOMAIN,x16.lilyemby.cc
+ - DOMAIN,x17.lilyemby.cc
+ - DOMAIN,x18.lilyemby.cc
+ - DOMAIN,x19.lilyemby.cc
+ - DOMAIN,x20.lilyemby.cc
+ - DOMAIN,x21.lilyemby.cc
+
 # > TOP
  - DOMAIN,any.embys.bbroot.com
  - DOMAIN,any.lilyemby.bbroot.com
