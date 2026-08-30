@@ -1,0 +1,22 @@
+# > TOP
+DOMAIN,any.embys.bbroot.com
+DOMAIN,any.lilyemby.bbroot.com
+DOMAIN,any.youxuan.bbroot.com
+DOMAIN,cm.embys.bbroot.com
+DOMAIN,cm.lilyemby.bbroot.com
+DOMAIN,cm.youxuan.bbroot.com
+DOMAIN,ct.embys.bbroot.com
+DOMAIN,ct.lilyemby.bbroot.com
+DOMAIN,ct.youxuan.bbroot.com
+DOMAIN,cu.embys.bbroot.com
+DOMAIN,cu.lilyemby.bbroot.com
+DOMAIN,cu.youxuan.bbroot.com
+
+# > 亦心
+DOMAIN,yx.emby-cm.ccwu.cc
+DOMAIN,yx.emby-ct.ccwu.cc
+DOMAIN,yx.emby-cu.ccwu.cc
+DOMAIN,yxv6.emby-cm.ccwu.cc
+
+# > 兜底域名
+DOMAIN-KEYWORD,emby

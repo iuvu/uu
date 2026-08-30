@@ -126,6 +126,11 @@ rule-providers:
     behavior: classical
     format: text
     url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Microsoft.list
+  EmbyProxy:
+    type: http
+    behavior: classical
+    format: text
+    url: https://github.com/iuvu/uu/Rules/list/EmbyProxy.list
     interval: 86400
   TikTok:
     type: http
@@ -201,7 +206,7 @@ rules:
 - RULE-SET,Bilibili,Bilibili,no-resolve
 - RULE-SET,TikTok,TikTok,no-resolve
 - RULE-SET,Microsoft,DIRECT,no-resolve
-- DOMAIN,domain name,EmbyProxy,no-resolve
+- RULE-SET,EmbyProxy,EmbyProxy,no-resolve
 - RULE-SET,Emby,Emby,no-resolve
 - RULE-SET,Live broadcast,Live broadcast,no-resolve
 - RULE-SET,Github,Github,no-resolve
