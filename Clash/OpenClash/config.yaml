@@ -126,17 +126,18 @@ rule-providers:
     behavior: classical
     format: text
     url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Microsoft.list
-  EmbyProxy:
-    type: http
-    behavior: classical
-    format: text
-    url: https://github.com/iuvu/uu/Rules/list/EmbyProxy.list
     interval: 86400
   TikTok:
     type: http
     behavior: classical
     format: text
     url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/TikTok.list
+    interval: 86400
+  EmbyProxy:
+    type: http
+    behavior: classical
+    format: text
+    url: https://github.com/iuvu/uu/Rules/list/EmbyProxy.list
     interval: 86400
   Emby:
     type: http
